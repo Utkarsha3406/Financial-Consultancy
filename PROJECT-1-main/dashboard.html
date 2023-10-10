@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" type="text/css" href="style_dashboard.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="#" class="logo">My Account</a>
+      <ul class="menu">
+        <li><a href="main.html">Home</a></li>
+        <li><a href="#">Investments</a></li>
+        <li><a href="#">Progress</a></li>
+        <li><a href="#">Recommendations</a></li>
+        <li><a href="register.html">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero-section">
+      <h2>Welcome to your Dashboard</h2>
+      <p>Here you can view your investments, track your progress, and get personalized recommendations.</p>
+    </section>
+
+    <section class="investments-section">
+      <h3>Your Investments</h3>
+      <ul class="investment-list">
+        <label for="Money">Investment Money:</label>
+
+        <select name="Money" id="Money">
+          <option value="5000-10000">5000-10000</option>
+          <option value="10000-20000">10000-20000</option>
+          <option value="20000-30000">20000-30000</option>
+          <option value="1k-2k">1k-2k</option>
+        </select>
+        <br>
+        <label for="Money">Investment Tenure:</label>
+
+        <select name="Tenure" id="Tenure">
+          <option value="1 Year">1 Year</option>
+          <option value="2 year">2 year</option>
+          <option value="3 year">3 year</option>
+          <option value="4 year">4 year</option>
+        </select>
+        <br>
+        <label for="Risk tolerance">Risk tolerance</label>
+        <select name="Risk tolerence" id="Risk tolerence">
+          <option value="Low">Low</option>
+          <option value="Medium">Medium</option>
+          <option value="High">High</option>
+        </select>
+        <br>
+
+      </ul>
+    </section>
+    
+<video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+  <source src="video 3.mp4" type="video/mp4">
+  </video>
+
+    <section class="tracking-section">
+      <h3>Daily Stock Market Analysis </h3>
+      <div class="graph-container"></div>
+      <p>Check current stock market analysis</p>
+      <a href="https://www.moneycontrol.com/stocksmarketsindia/" target="_blank"> <button class="recommendations-btn"
+          href="https://www.moneycontrol.com/stocksmarketsindia/"> Track Now</button></a>
+    </section>
+
+    <section class="recommendations-section">
+      <h3>Personalized Recommendations</h3>
+      <p>Recommendations based on investment history and risk tolerance.</p>
+      <a href="recom.html" target="_blank"><button class="recommendations-btn" href="recom.html"> View
+          Recommendations</button></a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2023 Dashboard. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
