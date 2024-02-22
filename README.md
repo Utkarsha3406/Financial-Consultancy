@@ -1,1 +1,2 @@
 # Financial-Consultancy
+This project represents a website for a financial consultancy firm called "SAPling Consultancy." It includes sections for Home, About, Services, Summary, and Contact. The website features responsive design, animated text, image carousels, contact form, and social media links. It aims to provide information about the consultancy's services, investment planning, portfolio management, retirement planning, and contact details.
